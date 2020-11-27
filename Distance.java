@@ -1,4 +1,6 @@
-public class Distance{
+package Socket_CN2020_Kirtik_Singh;
+
+public class Distance {
     public static boolean DFS(int adj[][],int s,int d,boolean vis[],int n)
     {  vis[s]=true;
         if(adj[s][d]!=0 && n==adj[s][d])
